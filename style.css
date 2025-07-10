@@ -139,7 +139,7 @@ nav ul li a {
 /* MENU  */
 
 .menu img {
-  height: 180px;
+  height: 220px;
   width: auto;
   /* border-top-right-radius: 5%;
   border-bottom-right-radius: 5%; */
@@ -153,16 +153,16 @@ nav ul li a {
 
 .menu-title {
   width: 400px;
-  margin: 30px auto 20px;
+  margin: 40px auto 0;
   text-align: center;
   text-transform: uppercase;
-  font-size: 30px;
-  padding-bottom: 10px;
-  letter-spacing: 10px;
+  font-size: 32px;
+  padding-bottom: 20px;
+  letter-spacing: 12px;
   border-bottom: 2px solid #1b2432;
 }
 
-.menu-container {
+.menu-items-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -170,12 +170,13 @@ nav ul li a {
   row-gap: 60px;
 }
 
-.tsukemono h3 {
+.menu-container h3 {
   font-size: 48px;
   font-family: "Permanent Marker", cursive;
   font-weight: 300;
   font-style: normal;
   text-align: center;
+  margin-top: 60px;
   margin-bottom: 25px;
 }
 
@@ -184,11 +185,11 @@ nav ul li a {
   border: 5px solid #fd52a1;
   border-radius: 5%;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 }
 
 .item-info {
-  padding: 20px 25px 0;
+  padding: 15px 10px 0 25px;
 }
 
 .item-info-name {
@@ -207,5 +208,5 @@ nav ul li a {
 }
 
 .item-info-ingr {
-  font-size: 16px;
+  font-size: 14px;
 }
