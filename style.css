@@ -210,3 +210,9 @@ nav ul li a {
 .item-info-ingr {
   font-size: 14px;
 }
+
+.item-info-ingr-list {
+  font-size: 14px;
+
+  margin-left: 20px;
+}
