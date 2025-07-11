@@ -125,13 +125,13 @@ nav ul li a {
 }
 
 .hero h2 {
-  font-size: 90px;
+  font-size: 100px;
   font-weight: 900;
   letter-spacing: 5px;
 }
 
 .hero p {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: -25px;
   font-weight: 100;
 }
@@ -151,12 +151,12 @@ nav ul li a {
   font-style: normal;
 }
 
-.menu-title {
+.section-title {
   width: 400px;
   margin: 40px auto 0;
   text-align: center;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 42px;
   padding-bottom: 20px;
   letter-spacing: 12px;
   border-bottom: 2px solid #1b2432;
@@ -215,4 +215,63 @@ nav ul li a {
   font-size: 14px;
 
   margin-left: 20px;
+}
+
+/* CONTACT */
+
+.contact {
+  margin-top: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+
+.contact-details {
+  color: #e4e8f1;
+  background-color: #1b2432;
+  width: 50%;
+  height: 100%;
+  padding: 0 80px;
+}
+.contact-details h4 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 37px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.contact-details p {
+  font-size: 20px;
+}
+
+.contact-details p a:link,
+.contact-details p a:visited {
+  text-decoration: none;
+  color: #7ebfff;
+  margin-left: 15px;
+  transition: all ease-in-out 0.2s;
+}
+
+.contact-details p a:hover,
+.contact-details p a:active {
+  color: #3299ff;
+}
+
+.map {
+  height: 100%;
+  width: 50%;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
 }
