@@ -96,7 +96,7 @@ nav ul li a {
   color: black;
   background-color: #06c167;
   border: 3px solid black;
-  border-radius: 25%;
+  border-radius: 12px;
   padding: 5px;
   transition: ease-in-out all 0.3s;
 }
@@ -145,8 +145,8 @@ nav ul li a {
 .menu img {
   height: 220px;
   width: auto;
-  /* border-top-right-radius: 5%;
-  border-bottom-right-radius: 5%; */
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .menu {
@@ -187,7 +187,7 @@ nav ul li a {
 .menu-item {
   display: flex;
   border: 5px solid #fd52a1;
-  border-radius: 5%;
+  border-radius: 14px;
   justify-content: space-between;
   gap: 10px;
 }
